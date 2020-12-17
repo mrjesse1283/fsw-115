@@ -1,0 +1,26 @@
+{
+    "menu": {
+        "appetizers":{
+            "chips":["bbq", "cheddar", "plain"],
+            "pickles":["plain", "kosher", "dill"],
+            "salad":["cesar", "classic", "plain"]
+        },
+        "coldSandwiches":{
+            "bologne":["bologne", "mustard", "lettuce", "tomato"],
+            "meatball":["pork sausage", "marinara", "parmisan cheese"],
+            "chicken":["white chicken breast", "balsamic vinegret", "onions", "peppers-optional"] 
+        },
+        "desserts":{
+            "cake":["red velvet", "cream cheese frosting", "chocolate flakes" ],
+            "ice cream":["chocolate", "vanilla", "pistacio"],
+            "cookie":["chocolate chip", "macadamian nut", "oatmeal raisin"]
+        },
+        "drinks":{
+            "soda":["pepsi", "coke", "diet"],
+            "shakes":["chocolate", "vanilla", "strawberry"],
+            "juice":["orange", "apple", "pineapple"]
+        }
+    }
+}
+
+
