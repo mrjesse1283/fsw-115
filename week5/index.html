@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo API</title>
+</head>
+<body>
+    <div >
+        <form name="form" id="form">
+            <input name="title" placeholder="Title"/>
+            <input name="price" placeholder="Price" type="number"/>
+            <textarea name="description" placeholder="Description"></textarea>
+            <Button>Post</Button>
+        </form>
+    </div>
+    <div>
+        <ol id="lines"> </ol>
+    </div>
+
+    <div id="todoID"> </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

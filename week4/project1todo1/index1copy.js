@@ -1,40 +1,5 @@
 /* function createToDo(toDo) */
-
-createToDo = (toDo) => {
-		let div1 = document.createElement('div')
-		document.body.append(div1)
-
-		let h1 = document.createElement('h1')
-		h1.textContent = toDo.title
-
-		let h2 = document.createElement('h2')
-		h2.textContent = toDo.description
-		
-		let p = document.createElement('p')
-		p.textContent = toDo.completed
-		
-		var x = document.createElement("HR");
-		document.body.appendChild(x);
-		
-		div1.append(h1)
-		div1.append(h2)
-		div1.append(p)
-		/* 	document.body.append(hr) */
-		if(toDo.completed == false){
-			div1.style.textDecoration= "line-through" 
-		}
-}
-
-axios.get("https://api.vschool.io/JesusHernandez/todo")
-	
-	/* .then(response => response.json()) */
-	.then(res => {
-		for(let i = 0; i < res.data.length; i++) {
-			createToDo(res.data[i])
-			
-			}
-		})
-	.catch() 
+7
 	/* //SOLID principles
 		
 
