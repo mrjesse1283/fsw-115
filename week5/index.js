@@ -37,7 +37,7 @@ let updateComp = (e) => {
             }
 
             
-            let checked = checkBox[i].parentNode
+            let checked = checkBox[i].parentNode  //tag <> parent of checkbox
             let x = checked.id
             let completed={completed:checkBox[i].checked}
 
@@ -66,6 +66,7 @@ createToDo = (toDo) => {
 
     let h1 = document.createElement('h1')
     h1.textContent = toDo.title
+
     let h2 = document.createElement('h2')
     h2.textContent = toDo.description
 
@@ -78,8 +79,8 @@ createToDo = (toDo) => {
     checkBox.onchange = updateComp
 
     let delBtn = document.createElement("button")
-    delBtn.textContent = "Remove"
     delBtn.className = "remove"
+    delBtn.textContent = "Remove"
 
   /*   var x = document.createElement("HR");
     document.body.appendChild(x); */
@@ -100,7 +101,7 @@ createToDo = (toDo) => {
                 let x = checked.id
 
                 /*  console.log("hi") */
-                axios.delete(`https://api.vschool.io/JesusHernandez/todo/${x}`)
+                axios.delete("https://api.vschool.io/JesusHernandez/todo/"+x) //could also use ${x} could only be used with back ticks
                     /* .then()
 
                     .catch(error => alert("error")) */

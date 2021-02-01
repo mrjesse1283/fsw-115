@@ -1,0 +1,10 @@
+header {
+    color: red;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.289);
+    margin: 35px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
