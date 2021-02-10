@@ -1,0 +1,25 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=60")
+}
+input{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+::placeholder {
+    color: black
+}
+
+#butt { 
+    background-color: lawngreen;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40%;
+    margin-right: 40%;
+}

@@ -26,11 +26,6 @@ async function getData(){
 }
 
 getData()
-/* 
-let header = document.createElement('header')
-header.style.text = 'StarWars API '
-
-document.body.append(header) */
 
 function charInfo(names){
     let h1 = document.createElement('h1')
@@ -73,24 +68,3 @@ function maleOrNo(homeworld){
     document.body.appendChild(worlds)
 }
 
-// async function getData (){
-//     const result = await axios.get("https://swapi.dev/api/people")
-
-    
-//     // console.log(result.name)
-// }
-    
-
-// getData();
-
-// let persons = result.data.name
-
-// async function peopleList () {
-//    for(var i = 0; i < persons.lenght; i++){
-//        let peopleData = document.createElement('h1')
-//        peopleData.textContent = result.data.persons
-       
-//        document.body.append(peopleData)
-//    }
-
-//    }
